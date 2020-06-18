@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Settings"
+        android:layout_span="2"
+        android:padding="20dp"
+        android:textSize="40dp"/>
+    <Button
+        android:id="@+id/wordWeight"
+        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Word Weight"
+        android:textSize="30dp"
+        android:textAllCaps="false"/>
+
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_settings">
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Board Size"
+            android:layout_span="2"
+            android:textSize="30dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_settings">
+
+        <Spinner android:id="@+id/boardSize"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:layout_span="2"
+            android:textSize="30dp"
+
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_settings">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Game Time"
+            android:layout_span="2"
+            android:textSize="30dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/border_settings"
+      >
+
+        <Spinner android:id="@+id/gameTime"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_span="2"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp">
+
+        <Button android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="20dp"/>
+
+        <Button android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="20dp"/>
+    </TableRow>>
+
+</TableLayout>

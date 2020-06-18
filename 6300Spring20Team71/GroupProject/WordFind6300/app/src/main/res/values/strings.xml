@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WordGame</string>
+
+    <string name="playButton">PLAY</string>
+    <string name="settingButton">SETTINGS</string>
+    <string name="viewStatButton">VIEW STATS</string>
+</resources>

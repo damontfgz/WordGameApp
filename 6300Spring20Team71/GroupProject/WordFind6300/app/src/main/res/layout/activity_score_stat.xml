@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreStatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Score Stats"
+        android:textSize="40dp" />
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:stretchColumns="0,1,2">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_margin="1dp">
+
+            <TextView
+                android:text="Board Size"
+                android:gravity="center"
+                android:background="@drawable/border"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:text="Board Size"
+                android:id="@+id/boardSize"
+                android:gravity="center"
+                android:background="@drawable/border"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_margin="1dp">
+
+            <TextView
+                android:text="Game Time"
+                android:gravity="center"
+                android:background="@drawable/border"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:text="Game Time"
+                android:id="@+id/gameTime"
+                android:gravity="center"
+                android:background="@drawable/border"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_margin="1dp">
+
+            <TextView
+                android:text="High Score Word"
+                android:gravity="center"
+                android:background="@drawable/border"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:text="High Score Word"
+                android:id="@+id/highScoredWord"
+                android:gravity="center"
+                android:background="@drawable/border"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <Button android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="30dp"
+            android:background="#D35400"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+</LinearLayout>
